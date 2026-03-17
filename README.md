@@ -10,6 +10,48 @@ Canonical citation: `PHI Readiness Stages (PRS) Framework v1.0`.
 
 This repository is a no-code assessment framework and agent skill package. It is designed for Codex, Claude Code, and human reviewers who need to assess the current PRS stage of a system, identify blocking gaps, and recommend the next actions without overstating legal status.
 
+## At a glance
+
+```mermaid
+flowchart TB
+    subgraph Review["HIPAA Assessment flow"]
+        direction LR
+        A["1 Scope<br/>boundary / env / data"] --> B["2 Role<br/>HIPAA applicability"]
+        B --> C["3 Evidence<br/>repo / process / approval / live ops"]
+        C --> D["4 Gates<br/>freshness / artifacts / rubric"]
+        D --> E{"5 Assign PRS<br/>highest defensible stage"}
+    end
+
+    subgraph Stages["PRS stages"]
+        direction LR
+        F["PRS-0<br/>Non-PHI"] --> G["PRS-1<br/>Security-Aligned"] --> H["PRS-2<br/>PHI-Ready"] --> I["PRS-3<br/>PHI-Approved"] --> J["PRS-4<br/>PHI-Operational"]
+    end
+
+    Review -->|assigns PRS stage| Stages
+
+    classDef scope fill:#ecfeff,stroke:#0ea5e9,color:#0c4a6e,stroke-width:2px;
+    classDef role fill:#eef2ff,stroke:#3b82f6,color:#1e3a8a,stroke-width:2px;
+    classDef evidence fill:#f8fafc,stroke:#475569,color:#0f172a,stroke-width:2px;
+    classDef gate fill:#f5f3ff,stroke:#7c3aed,color:#5b21b6,stroke-width:2px;
+    classDef assign fill:#eef2ff,stroke:#4338ca,color:#312e81,stroke-width:2px;
+    classDef stage0 fill:#f8fafc,stroke:#64748b,color:#0f172a,stroke-width:1.5px;
+    classDef stage1 fill:#ecfeff,stroke:#0891b2,color:#164e63,stroke-width:1.5px;
+    classDef stage2 fill:#eff6ff,stroke:#2563eb,color:#1e3a8a,stroke-width:1.5px;
+    classDef stage3 fill:#eef2ff,stroke:#4f46e5,color:#312e81,stroke-width:1.5px;
+    classDef stage4 fill:#ecfdf5,stroke:#16a34a,color:#14532d,stroke-width:1.5px;
+
+    class A scope;
+    class B role;
+    class C evidence;
+    class D gate;
+    class E assign;
+    class F stage0;
+    class G stage1;
+    class H stage2;
+    class I stage3;
+    class J stage4;
+```
+
 ## What PRS is
 
 PRS is a practical workload-stage model that separates:
