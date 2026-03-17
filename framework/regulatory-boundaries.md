@@ -46,6 +46,7 @@ HIPAA does not erase state-law review. More protective state privacy or breach r
 PRS should therefore:
 
 - flag state-law review when jurisdiction-specific patient or consumer data is involved
+- flag FTC or consumer-health review when a health-related workflow appears to sit outside HIPAA scope
 - flag special categories or high-sensitivity contexts
 - avoid claiming that a strong PRS stage resolves all privacy obligations
 

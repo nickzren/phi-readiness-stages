@@ -1,8 +1,8 @@
 # PHI Readiness Stages (PRS)
 
-[![Framework v1.0](https://img.shields.io/badge/framework-v1.0-0f766e)](/Users/nick/github/phi-readiness-stages/framework/prs-framework.md)
-[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-2563eb)](/Users/nick/github/phi-readiness-stages/LICENSE)
-[![Agents: Codex + Claude Code](https://img.shields.io/badge/agents-Codex%20%2B%20Claude%20Code-4f46e5)](/Users/nick/github/phi-readiness-stages/README.md#install-as-a-skill)
+[![Framework v1.0](https://img.shields.io/badge/framework-v1.0-0f766e)](framework/prs-framework.md)
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-2563eb)](LICENSE)
+[![Agents: Codex + Claude Code](https://img.shields.io/badge/agents-Codex%20%2B%20Claude%20Code-4f46e5)](#install-as-a-skill)
 
 PHI Readiness Stages (PRS) is a HIPAA-informed workload status framework for software systems that may handle protected health information.
 
@@ -43,7 +43,7 @@ PRS is informed by the HIPAA Security Rule and related HHS/OCR guidance. It is n
 ## Repository layout
 
 - `framework/`: canonical framework, rubric, role matrix, freshness policy, artifact matrix, boundary rules, evidence policy, assessment rules, output contract
-- `skills/phi-readiness-review/`: single agent entrypoint and lightweight execution references
+- `skills/phi-readiness-review/`: single agent entrypoint plus scenario references for health apps, APIs, mobile, wearables, and communications
 - `controls/`: domain-specific review rules and evidence expectations
 - `checklists/`: stage-transition checklists
 - `mappings/`: companion references to HIPAA Security Rule, NIST SP 800-66 Rev. 2, recognized security practices, and the 2024 NPRM tracker
@@ -56,8 +56,9 @@ PRS is informed by the HIPAA Security Rule and related HHS/OCR guidance. It is n
 3. Verify the official sources in `references/source-registry.md` live before making legal or regulatory statements.
 4. Follow `framework/assessment-rules.md`, `framework/applicability-role-matrix.md`, and `framework/regulatory-boundaries.md`.
 5. Apply `framework/stage-rubric.md`, `framework/evidence-levels.md`, `framework/evidence-freshness.md`, and `framework/minimum-artifact-matrix.md`.
-6. Use `controls/shared-responsibility.md` whenever the workload inherits controls.
-7. Output results in the format required by `framework/output-contract.md`.
+6. Load the scenario references under `skills/phi-readiness-review/references/` when the workload involves health apps, provider APIs, customer-hosted products, mobile devices, wearables, or outbound communications.
+7. Use `controls/shared-responsibility.md` whenever the workload inherits controls.
+8. Output results in the format required by `framework/output-contract.md`.
 
 ## Install as a skill
 

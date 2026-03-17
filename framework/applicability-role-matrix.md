@@ -34,6 +34,15 @@ If the vendor provides software that the customer runs entirely within the custo
 - whether telemetry, backups, logs, or remote management leave the customer environment
 - whether the contract or support model creates a business-associate role
 
+### Health apps and patient-directed access
+
+Do not assume a health app is inside HIPAA scope just because it handles health-related data. Review whether:
+
+- the app is acting on behalf of a covered entity or business associate
+- the app is chosen by the individual for their own use
+- the app receives provider data at the individual's direction rather than as part of a provider-operated service
+- adjacent FTC or state-law issues are more relevant than HIPAA for the reviewed workflow
+
 ### Cloud and managed infrastructure
 
 Do not assume `infrastructure only` means `outside HIPAA scope`. HHS cloud guidance can make a provider a business associate when it maintains ePHI on behalf of a regulated entity, even if the data is encrypted and the provider does not view it in the ordinary course.
@@ -46,4 +55,6 @@ A workflow may be outside HIPAA scope and still trigger other privacy, consumer-
 
 - If role depends on contract structure not provided, use `likely` or `unclear`.
 - If PHI flow is only hypothetical and the current workload is non-PHI by design, do not inflate the current PRS stage.
+- If current scope is non-PHI and PHI ingress is only theoretical or incidental, record that as a boundary risk and future-state gap, not as automatic evidence of current live PHI use.
+- If live forms, uploads, chat, support tickets, logs, or similar workflows intentionally accept or routinely receive PHI, treat that as evidence the current scope may already include PHI and reassess the role, stage, and evidence requirements accordingly.
 - If the deployment or support model materially changes the role analysis, treat that as a scope split, not a small caveat.

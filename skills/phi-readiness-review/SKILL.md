@@ -26,6 +26,8 @@ Then read only the references needed for the task:
 - `skills/phi-readiness-review/references/checklist.md` for the full review sequence
 - `skills/phi-readiness-review/references/report-template.md` for the output layout
 - `skills/phi-readiness-review/references/action-priority.md` for ordering recommendations
+- `skills/phi-readiness-review/references/health-app-and-api-scenarios.md` for consumer health apps, provider-connected apps, patient-directed API access, customer-hosted products, or unintended PHI ingress
+- `skills/phi-readiness-review/references/mobile-wearable-communications.md` for push notifications, outbound communications, local device storage, lock-screen exposure, wearables, or companion-device risks
 - `controls/index.md` and specific control files for domain-level questions
 - `controls/shared-responsibility.md` for cloud, SaaS, customer-hosted, or inherited-control reviews
 - `controls/physical-safeguards.md` when facilities, devices, workstations, media handling, or retained physical responsibilities are in scope
@@ -36,24 +38,27 @@ Then read only the references needed for the task:
 1. Define the exact workload, environment, and deployment boundary under review.
 2. Determine whether PHI or ePHI is in scope now, later, or explicitly excluded.
 3. Determine the likely HIPAA role or say that it is unclear.
-4. Inventory evidence and classify it using `framework/evidence-levels.md`.
-5. Check evidence freshness using `framework/evidence-freshness.md`.
-6. Verify that the minimum artifact set for the candidate stage exists using `framework/minimum-artifact-matrix.md`.
-7. Verify current official sources live from `references/source-registry.md`.
-8. Evaluate each required domain for the candidate stage using `framework/stage-rubric.md`.
-9. Use `controls/shared-responsibility.md` whenever controls are inherited or the deployment model changes the role analysis.
-10. Use `controls/physical-safeguards.md` whenever physical controls are direct, partially inherited, or unclear.
-11. Add a regulatory-boundary note using `framework/regulatory-boundaries.md`.
-12. Apply conservative stage caps when evidence is missing, stale, indirect, or role-dependent.
-13. Assign the highest defensible stage.
-14. Recommend the next actions required to reach the next stage.
-15. Return the assessment using `framework/output-contract.md`.
+4. If the workflow involves health apps, provider APIs, customer-hosted software, or user-generated content, use `skills/phi-readiness-review/references/health-app-and-api-scenarios.md`.
+5. If the workflow involves phones, tablets, wearables, email, SMS, push notifications, or offline device storage, use `skills/phi-readiness-review/references/mobile-wearable-communications.md`.
+6. Inventory evidence and classify it using `framework/evidence-levels.md`.
+7. Check evidence freshness using `framework/evidence-freshness.md`.
+8. Verify that the minimum artifact set for the candidate stage exists using `framework/minimum-artifact-matrix.md`.
+9. Verify current official sources live from `references/source-registry.md`.
+10. Evaluate each required domain for the candidate stage using `framework/stage-rubric.md`.
+11. Use `controls/shared-responsibility.md` whenever controls are inherited or the deployment model changes the role analysis.
+12. Use `controls/physical-safeguards.md` whenever physical controls are direct, partially inherited, or unclear.
+13. Add a regulatory-boundary note using `framework/regulatory-boundaries.md`.
+14. Apply conservative stage caps when evidence is missing, stale, indirect, or role-dependent.
+15. Assign the highest defensible stage.
+16. Recommend the next actions required to reach the next stage.
+17. Return the assessment using `framework/output-contract.md`.
 
 ## Hard constraints
 
 - Do not overrule the evidence cap with technical optimism.
 - Do not infer approval, contracting, or live operations from code.
 - Do not infer covered-entity, business-associate, or subcontractor status from branding alone.
+- Do not treat a health-related app or device as automatically inside HIPAA scope just because it handles health data.
 - Do not use proposed NPRM changes as current mandatory requirements unless asked for a forward-looking analysis.
 - Do not use `HIPAA compliant`, `HIPAA certified`, or `HIPAA secure` as status labels.
 - If the review is repo-only, say so explicitly.

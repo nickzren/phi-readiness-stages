@@ -13,6 +13,7 @@ Use this repository when asked to assess a system, workload, repository, environ
 7. Read `framework/minimum-artifact-matrix.md`.
 8. Read `framework/regulatory-boundaries.md`.
 9. Verify live official sources from `references/source-registry.md` before making any statement about current HIPAA rules, guidance, or enforcement posture.
+10. When apps, APIs, mobile devices, or wearables are in scope, read the matching scenario references under `skills/phi-readiness-review/references/`.
 
 ## Hard rules
 

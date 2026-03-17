@@ -14,6 +14,7 @@
 - determine likely role: covered entity, business associate, subcontractor, outside scope, or unclear
 - note any dependency on customer deployment model or contract structure
 - use `framework/applicability-role-matrix.md`
+- use `health-app-and-api-scenarios.md` when apps, APIs, customer-hosted products, or consumer-health boundaries are involved
 
 ## Phase 3: Evidence inventory
 
@@ -36,6 +37,7 @@
 
 - identify inherited controls and retained responsibilities
 - use `controls/shared-responsibility.md` when cloud, SaaS, or customer-hosted models are involved
+- use `mobile-wearable-communications.md` when messages, device storage, lock-screen exposure, or wearables are in scope
 - write a short regulatory-boundary note
 
 ## Phase 6: Stage analysis
