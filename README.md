@@ -1,7 +1,7 @@
 # PHI Readiness Stages (PRS)
 
 [![Framework v1.0](https://img.shields.io/badge/framework-v1.0-0f766e)](framework/prs-framework.md)
-[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-2563eb)](LICENSE)
+[![License: MIT-0](https://img.shields.io/badge/license-MIT--0-2563eb)](LICENSE)
 [![Agents: Codex + Claude Code](https://img.shields.io/badge/agents-Codex%20%2B%20Claude%20Code-4f46e5)](#install-as-a-skill)
 
 PHI Readiness Stages (PRS) is a HIPAA-informed workload status framework for software systems that may handle protected health information.
@@ -108,7 +108,7 @@ PRS is informed by the HIPAA Security Rule and related HHS/OCR guidance. It is n
 
 Clone the published repository into your Claude skills directory at `~/.claude/skills/phi-readiness-stages`, then use `/phi-readiness-stages` in Claude Code.
 
-Claude will discover the root `SKILL.md`, which is only the install wrapper. Then load `skills/phi-readiness-review/SKILL.md` as the canonical workflow.
+Claude will discover the root `SKILL.md` as the repository's canonical skill entrypoint. Then load `skills/phi-readiness-review/SKILL.md` as the canonical workflow.
 
 ### Codex
 
@@ -116,6 +116,12 @@ Copy or clone the published repository into your Codex skills directory at `~/.c
 
 Codex can then use the root `SKILL.md` as the skill entrypoint, with `AGENTS.md` and the referenced framework files providing the full review flow.
 Codex should then immediately load `skills/phi-readiness-review/SKILL.md` as the canonical workflow.
+
+### OpenClaw / ClawHub
+
+The repository root is also structured as a publishable OpenClaw skill bundle.
+
+ClawHub-compatible publishing can use the root `SKILL.md` plus the supporting framework files directly, while `.clawhubignore` excludes repo-local files that are not part of the published skill.
 
 ### Repo context mode
 

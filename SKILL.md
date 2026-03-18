@@ -1,15 +1,22 @@
 ---
 name: phi-readiness-stages
 description: Assess the current PHI Readiness Stage (PRS) of a workload, repository, system, or environment; determine HIPAA applicability and role; identify evidence gaps; and recommend next actions using official HHS/OCR and NIST sources with conservative evidence caps.
+version: 1.0.0
+metadata:
+  openclaw:
+    homepage: https://github.com/nickzren/phi-readiness-stages
+    skillKey: phi-readiness-stages
 ---
 
 # PHI Readiness Stages
 
-This top-level `SKILL.md` is only the installable wrapper so the repository can be cloned directly into a Claude Code or Codex skills directory.
+This top-level `SKILL.md` is the canonical install and publish entrypoint for the repository root.
 
-The canonical PRS assessment workflow lives in `skills/phi-readiness-review/SKILL.md`.
+It is suitable for Codex, Claude Code, and OpenClaw-compatible registries that publish a root skill folder directly.
 
-If you are using this as an installed skill, always load files in this order:
+The detailed PRS assessment workflow lives in `skills/phi-readiness-review/SKILL.md`.
+
+If you are using this as an installed or published skill, always load files in this order:
 
 1. `skills/phi-readiness-review/SKILL.md`
 2. `framework/assessment-rules.md`
