@@ -17,6 +17,8 @@ Read this with `framework/applicability-role-matrix.md`.
 
 Use `health-app-and-api-scenarios.md` when mobile apps, patient apps, connected devices, provider APIs, or consumer-health boundaries are involved.
 
+If the boundary looks similar to a known archetype, compare it to the nearest example in `examples/` before finalizing scope and role language.
+
 ## Conservative defaults
 
 - If PHI handling is only hypothetical and the current workload is restricted to non-PHI, treat the current state as PRS-0 or PRS-1 depending on implementation intent.

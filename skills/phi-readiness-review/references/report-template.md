@@ -5,6 +5,7 @@
 - Workload:
 - Environment:
 - Deployment boundary:
+- Framework version used:
 - Assessment date:
 - Reviewer:
 
@@ -23,13 +24,21 @@
 - Freshness assessment:
 - Missing evidence:
 - Repo-only note:
+- Assessment evidence handling note:
 
 ## Official sources verified
 
 - Source:
+  - Title:
   - URL:
   - Type:
   - Access date:
+
+## Crosswalk and policy basis
+
+- Crosswalk rows relied on:
+- Required versus addressable context:
+- PRS policy versus HIPAA baseline notes:
 
 ## Current stage assignment
 
@@ -67,4 +76,11 @@
 
 ## Safe public wording
 
-- Use the exact frozen public label for the assigned stage, scoped to the reviewed environment and deployment boundary.
+- Public-safe statement: [Workload] in [environment] is assessed as [Exact frozen public label] for the reviewed deployment boundary.
+
+## Optional calibration appendix
+
+- Nearest example:
+- Why this case is not lower:
+- Why this case is not higher:
+- Disputed or judgment-heavy calls:

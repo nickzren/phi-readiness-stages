@@ -18,6 +18,7 @@
 
 ## Phase 3: Evidence inventory
 
+- apply `framework/assessment-evidence-handling.md` before requesting, copying, or quoting artifacts
 - collect repo and architecture evidence
 - collect process and governance artifacts
 - collect approval and contract artifacts
@@ -45,6 +46,8 @@
 - start at the lowest plausible stage and move upward only when the next stage is fully supported
 - stop at the first stage whose next-stage requirements are not fully supported
 - check every required domain
+- use `mappings/hipaa-security-rule-crosswalk.md` when the assessment needs rule-level support or `PRS policy` labeling
+- compare the case to the nearest example in `examples/` when stage calibration is uncertain
 - document blockers that cap the stage
 
 ## Phase 7: Recommendations

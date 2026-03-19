@@ -8,6 +8,8 @@ Last reviewed against official source registry: March 17, 2026.
 
 PRS does not restate every Security Rule standard. Instead, it groups mandatory readiness questions into operational domains that track the current rule's administrative, physical, and technical safeguard structure.
 
+For row-level traceability, use `mappings/hipaa-security-rule-crosswalk.md`.
+
 ## PRS domain mapping
 
 | PRS domain | Security Rule area |
@@ -35,3 +37,5 @@ PRS does not restate every Security Rule standard. Instead, it groups mandatory 
 ## Assessment rule
 
 When a domain is relevant to the scoped workload, do not allow a strong technical showing to offset missing administrative, physical, approval, or operational evidence.
+
+If a reviewer needs to distinguish HIPAA baseline from a stricter PRS readiness bar, make that distinction explicitly and cite the detailed crosswalk.

@@ -2,7 +2,7 @@
 
 Agents must verify these sources live before making claims about current HIPAA rules, guidance, or implementation expectations.
 
-Last curated: March 17, 2026.
+Last curated: March 18, 2026.
 
 ## Current baseline sources
 
@@ -14,6 +14,7 @@ Last curated: March 17, 2026.
 | HIPAA Breach Notification Rule overview | official guidance | https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html |
 | Security Rule NPRM status | official guidance | https://www.hhs.gov/hipaa/for-professionals/security/hipaa-security-rule-nprm/index.html |
 | Risk analysis guidance | official guidance | https://www.hhs.gov/hipaa/for-professionals/security/guidance/guidance-risk-analysis/index.html |
+| Addressable versus required implementation specifications FAQ | official guidance | https://www.hhs.gov/hipaa/for-professionals/faq/2020/what-is-the-difference-between-addressable-and-required-implementation-specifications/index.html |
 | Security Rule safeguards and standards | official guidance | https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html |
 | Who must comply with HIPAA privacy standards | official guidance | https://www.hhs.gov/hipaa/for-professionals/faq/190/who-must-comply-with-hipaa-privacy-standards/index.html |
 | Misleading marketing claims | official guidance | https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/be-aware-misleading-marketing-claims/index.html |
