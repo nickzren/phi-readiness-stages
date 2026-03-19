@@ -1,7 +1,7 @@
 ---
 name: phi-readiness-stages
 description: Assess the current PHI Readiness Stage (PRS) of a workload, repository, system, or environment; determine HIPAA applicability and role; identify evidence gaps; and recommend next actions using official HHS/OCR and NIST sources with conservative evidence caps.
-version: 1.0.0
+version: 1.1.0
 metadata:
   openclaw:
     homepage: https://github.com/nickzren/phi-readiness-stages

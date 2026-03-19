@@ -5,7 +5,7 @@
 - Workload: personal symptom tracker mobile app
 - Environment: production consumer app
 - Deployment boundary: vendor-hosted mobile backend and app experience chosen by the individual for personal use
-- Framework version used: PRS Framework v1.0
+- Framework version used: PRS Framework v1.1
 - Assessment date: March 18, 2026
 - Reviewer: example calibration case
 

@@ -5,7 +5,7 @@
 - Workload: internal scheduling API under active development
 - Environment: development and staging only
 - Deployment boundary: repository, infrastructure-as-code, and design artifacts; no approval or live PHI operation shown
-- Framework version used: PRS Framework v1.0
+- Framework version used: PRS Framework v1.1
 - Assessment date: March 18, 2026
 - Reviewer: example calibration case
 

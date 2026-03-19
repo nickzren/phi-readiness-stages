@@ -1,10 +1,10 @@
 # PHI Readiness Stages (PRS)
 
-Framework version: `PRS Framework v1.0`
+Framework version: `PRS Framework v1.1`
 
 Document role: public overview
 
-Canonical citation: `PHI Readiness Stages (PRS) Framework v1.0`.
+Canonical citation: `PHI Readiness Stages (PRS) Framework v1.1`.
 
 ## Purpose
 

@@ -5,7 +5,7 @@
 - Workload: customer-hosted analytics module for a covered-entity deployment
 - Environment: customer production environment approved for defined PHI use
 - Deployment boundary: customer-managed infrastructure with vendor-managed application updates and limited support access
-- Framework version used: PRS Framework v1.0
+- Framework version used: PRS Framework v1.1
 - Assessment date: March 18, 2026
 - Reviewer: example calibration case
 

@@ -1,6 +1,6 @@
 # PHI Readiness Stages (PRS) Specification
 
-Framework version: `PRS Framework v1.0`
+Framework version: `PRS Framework v1.1`
 
 This document is the normative specification for assigning and reviewing PHI Readiness Stages (PRS).
 

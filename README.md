@@ -1,12 +1,12 @@
 # PHI Readiness Stages (PRS)
 
-[![Framework v1.0](https://img.shields.io/badge/framework-v1.0-0f766e)](framework/prs-framework.md)
+[![Framework v1.1](https://img.shields.io/badge/framework-v1.1-0f766e)](framework/prs-framework.md)
 [![License: MIT-0](https://img.shields.io/badge/license-MIT--0-2563eb)](LICENSE)
 [![Agents: Codex + Claude Code + OpenClaw](https://img.shields.io/badge/agents-Codex%20%2B%20Claude%20Code%20%2B%20OpenClaw-4f46e5)](#install-as-a-skill)
 
 PHI Readiness Stages (PRS) is a HIPAA-informed workload status framework for software systems that may handle protected health information.
 
-Canonical citation: `PHI Readiness Stages (PRS) Framework v1.0`.
+Canonical citation: `PHI Readiness Stages (PRS) Framework v1.1`.
 
 This repository is primarily an agent skill package and no-code assessment framework for Codex, Claude Code, OpenClaw, and human reviewers who need to assess the current PRS stage of a system, identify blocking gaps, and recommend the next actions without overstating legal status.
 

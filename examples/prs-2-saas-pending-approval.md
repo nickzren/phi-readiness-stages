@@ -5,7 +5,7 @@
 - Workload: care coordination SaaS application
 - Environment: production-ready hosted environment not yet approved for real PHI
 - Deployment boundary: vendor-hosted application stack, managed database, support workflow, and vendor dependencies
-- Framework version used: PRS Framework v1.0
+- Framework version used: PRS Framework v1.1
 - Assessment date: March 18, 2026
 - Reviewer: example calibration case
 

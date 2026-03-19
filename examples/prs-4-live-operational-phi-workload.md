@@ -5,7 +5,7 @@
 - Workload: live care management platform
 - Environment: production
 - Deployment boundary: vendor-hosted application, managed cloud services, support function, and current PHI-bearing workflows in defined scope
-- Framework version used: PRS Framework v1.0
+- Framework version used: PRS Framework v1.1
 - Assessment date: March 18, 2026
 - Reviewer: example calibration case
 
