@@ -104,18 +104,27 @@ PRS is informed by the HIPAA Security Rule and related HHS/OCR guidance. It is n
 
 ## Install as a skill
 
-### Claude Code
+Copy this into a new Codex or Claude Code session:
 
-Clone the published repository into your Claude skills directory at `~/.claude/skills/phi-readiness-stages`, then use `/phi-readiness-stages` in Claude Code.
+```text
+Set up phi-readiness-stages, the PHI readiness assessment skill for agents.
 
-Claude will discover the root `SKILL.md` as the repository's canonical skill entrypoint. Then load `skills/phi-readiness-review/SKILL.md` as the canonical workflow.
+If npm is available:
+npx skills add nickzren/phi-readiness-stages --skill phi-readiness-stages -y -g
 
-### Codex
+Otherwise:
+dir="${XDG_DATA_HOME:-$HOME/.local/share}/agent-skills"
+repo="$dir/phi-readiness-stages"
+mkdir -p "$dir"
+test -d "$repo" || gh repo clone nickzren/phi-readiness-stages "$repo"
+"$repo/install.sh"
+```
 
-Copy or clone the published repository into your Codex skills directory at `~/.codex/skills/phi-readiness-stages`.
+Manual install from this checkout:
 
-Codex can then use the root `SKILL.md` as the skill entrypoint, with `AGENTS.md` and the referenced framework files providing the full review flow.
-Codex should then immediately load `skills/phi-readiness-review/SKILL.md` as the canonical workflow.
+```bash
+./install.sh
+```
 
 ### OpenClaw / ClawHub
 
