@@ -1,3 +1,5 @@
+@AGENTS.md
+
 # Claude Instructions
 
 Read `AGENTS.md` first and follow it as the canonical agent entrypoint for this repository.
